@@ -1,6 +1,4 @@
-//Joe Snider
-//5/09
-//
+
 //Allow PhaseSpace locations to be accessed directly in Vizard.
 //Modified version of the sensor sample provided by Vizard that uses the owl interface to PhaseSpace.
 //
@@ -8,21 +6,21 @@
 //
 //Must be the master. TODO: why can't this run as a slave?
 //
-//Changed 6/10 -- Joe Snider
+//Changed 6/10
 //  Now only waits for 1000 attempts before giving up on rigid bodies
 //  Default offset is 0,0,0
 //  Orientations are correct for Vizard
 //
-//Changed 1/13 -- Joe Snider
+//Changed 1/13
 //  Updated for viz 4 and recompiled with new interface
 //  Also correctly updates the orientation for point markers
 //      TODO: make version 2 with a threaded, real time reader and new Vizard interface
 //
-//Changed 3/13 -- Joe Snider
+//Changed 3/13 
 //  threaded version so the timing is much improved
 //   This is intermediate toward using the new Vizard interface
 //
-//Changed 5/13 -- Joe Snider
+//Changed 5/13 
 //   Improved the memory management to avoid sampling issues
 
 
